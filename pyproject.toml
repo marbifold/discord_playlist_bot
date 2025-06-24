@@ -5,7 +5,7 @@ description = "Discord bot for automatically adding songs to a shared Spotify pl
 authors = [
     {"name" = "Parsia Hedayat"}
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "discord.py>=2.3.2",
     "spotipy>=2.25.1"
