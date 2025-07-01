@@ -1,0 +1,17 @@
+[project]
+name = "discord_playlist_bot"
+version = "1.0.0"
+description = "Discord bot for automatically adding songs to a shared Spotify playlist, with duplicate detection."
+authors = [
+    {"name" = "Parsia Hedayat"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "discord.py>=2.3.2",
+    "spotipy>=2.25.1",
+]
+
+[dependency-groups]
+dev = [
+    "python-dotenv>=1.1.1",
+]
